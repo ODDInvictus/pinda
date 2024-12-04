@@ -1,0 +1,12 @@
+version: '3'
+
+tasks:
+  db-client:
+    cmds:
+      - go run github.com/steebchen/prisma-client-go db generate --schema ./ibs3/prisma/schema.prisma
+
+  init:
+    cmds:
+      - git submodule init
+      - git submodule update
+      - go get

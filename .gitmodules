@@ -1,0 +1,3 @@
+[submodule "ibs3"]
+	path = ibs3
+	url = git@github.com:oddinvictus/ibs3
